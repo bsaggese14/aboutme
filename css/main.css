@@ -1,0 +1,175 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+body {
+     border-top: solid 3px #FF7575;
+}
+.white {
+	color: white;
+}
+.top {
+   height: 500px;
+   width: 100%;
+   color: white;
+   font-size: 20px;   
+
+}
+#topIndex{
+   background: url("../images/index.jpg") no-repeat center fixed;
+   background-size: cover;
+
+} 
+
+#topAbout{
+   background: url("../images/me.jpg") no-repeat center fixed;
+   background-size: cover;
+} 
+#topLocation{
+   background: url("../images/location.jpg") no-repeat center fixed;
+   background-size: cover;
+
+}
+#topContact{
+   background: url("../images/contact.jpg") no-repeat center fixed;
+   background-size: cover;
+
+}
+#middle {
+	color: white;
+	background-color:  #f2f2f2;
+	min-height: 100%;
+	width: 100%;
+	position: absolute;
+    bottom: 0px;
+    display: block;
+    height: auto !important;
+	top: 500px;
+	z-index: 0;
+}
+#content {
+	background-color: white;
+	min-height: 100%;
+	width: 50%;
+	z-index: 1;
+	position: absolute;
+	left: 25%;
+	top: 450px;
+	text-align: center;
+	overflow: hidden;
+}
+#content p {
+	padding: 2%;
+}
+#topLeftText {
+	float: left;
+	padding: 8%;
+}
+#nav {
+	float: right;
+}
+
+#content a {
+	text-decoration: none;
+	color: blue;
+}
+#content a:hover {
+	color: #FF7575;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+li a:hover {
+	color: #FF7575;
+	border-bottom: 1px solid white;
+    cursor: pointer;
+}
+h2 {
+	color:  #FF7575	;
+}
+.bigRed {
+	color: #FF7575;
+}
+
+input[type=text] {
+    border: none;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    width: 60%;
+    height: 30px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #FF7575;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+}
+
+textarea {
+	margin: 10px;
+    width: 60%;
+    height: 120px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+select {
+    outline: none;
+    border: 2px solid #FF7575;
+    width: 30%;
+}
+@media (max-width: 1050px) {
+
+	body {
+		background-color: black;
+	}
+    li a {
+        border: 1px solid white;
+    }
+    #content {
+        width: 80%;
+        left: 10%;
+    }
+    li {
+    	background-color: #FF7575;
+        width: 100%;
+    }
+
+    li a:hover {
+    	color: #ccc;
+    }
+
+    #nav {
+    	opacity: .8;
+        width: 80%;
+        margin-right: 10%;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+}
