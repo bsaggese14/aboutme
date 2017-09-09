@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src = "main.js"></script>
 
 	</head>
 
@@ -15,8 +16,14 @@
 
 		<div class = "top" id = "topAbout">
 			<!-- image is mine-->
-			<?php include('includes/nav.php'); ?>
-		
+			<ul id = "nav">
+				<li><a href="" onclick = "loadHome();return false;">HOME</a></li>
+				<li><a href="" onclick = "loadInspiration();return false;">INSPIRATION</a></li>
+				<li><a href="" onclick = "loadInterests();return false;">INTERESTS</a></li>
+			</ul>
+			<p id = "topLeftText" class = "white" >Bryan Saggese <br>
+				Student @ <span class = "bigRed">C</span>ornell <span class = "bigRed">U</span>niversity <br>
+			</p>'
 		</div>
 
 		<div id = "middle">
